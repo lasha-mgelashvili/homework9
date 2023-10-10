@@ -1,0 +1,52 @@
+.flex-for {
+    display: flex;
+}
+/* header styles*/
+.header {
+    width: 100%;
+}
+.head-div {
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    padding-right: 32px;
+}
+.a-item {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+.logo-div{
+    width: 101px;
+    height: 27px;
+}
+.head-icon {
+    width: 100px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: black;
+    text-align: center;
+}
+.head-icon p {
+    color: white;
+    vertical-align: middle;
+}
+.nav-icon {
+    margin: 12px 24px ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.li-item {
+    margin-right: 34px;
+}
+.logo {
+    padding-left: 32px;
+}
+.head-icon:hover {
+    width: 120px;
+    height: 52px;
+    transform-box: fill-box;
+}
