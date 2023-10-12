@@ -8,8 +8,12 @@
 .head-div {
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 96px;
     padding-right: 32px;
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 11;
 }
 .a-item {
     font-family: 'Inter', sans-serif;
@@ -46,7 +50,217 @@
     padding-left: 32px;
 }
 .head-icon:hover {
-    width: 120px;
-    height: 52px;
-    transform-box: fill-box;
+    background-color: blue;
+}
+.div-icon {
+    align-items: center;
+    margin-top: 40px;
+}
+/*section style*/
+.mother {
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    padding-top: 110px;
+    width: 100%;
+    height: 556px;
+}
+/* text style*/
+.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 60px;
+    color: black;
+    width: 490px;
+}
+.info-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    width: 490px;
+    font-size: 18px;
+    color: black;
+    line-height: 28px;
+    margin-top: 24px;
+}
+.text-margin {
+    margin-right: 130px;
+}
+.icon-text {
+    font-family: 'Inter', sans-serif;
+    width: 236px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px;
+}
+/* second section*/
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: black;
+}
+.circle-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+    margin-left: 16px;
+}
+.circle-mom {
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.mom-div {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 296px;
+    background-color: #F3F3F3;
+}
+.sec-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    color: black;
+    font-size: 16px;
+    width: 360px;
+    margin-top: 16px;
+}
+.section2 {
+    padding-top: 64px;
+}
+/*third section*/
+.section3 {
+    background-color: black;
+    width: 100%;
+    height: 620px;
+}
+.father {
+    padding-top: 96px;
+    align-items: center;
+    justify-content: center;
+}
+.sec3-title {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    width: 503.5px;
+}
+.p-item {
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    width: 429px;
+    padding-bottom: 8px;
+}
+.p-item0 {
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    width: 429px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.image-div {
+    margin-right: 133px;
+}
+/*fourth section*/
+.section4 {
+    width: 100%;
+    height: 564px;
+    background-image: url(../images/CTAImg-Desktop-1440px.jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head-icon1 {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 48px;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 222px;
+}
+.head-icon1:hover {
+    background-color: aqua;
+}
+.nav-icon1 {
+    padding: 12px 24px ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.title1 {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.info {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    width: 540px;
+}
+/*footer style's*/
+.footer {
+    width: 100%;
+    height: 336px;
+    background-color: black;
+}
+.footer-li {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 8px;
+
+}
+.footer-h {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.footer-mother-div {
+    justify-content: center;
+    text-align: center;
+    padding-top: 96px;
+}
+.footer-p {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 228px;
+    height: 40px;
+    opacity: 0.4px;
+}
+.footer-div-li {
+    width: 228px;
 }
